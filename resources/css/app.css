@@ -1,0 +1,29 @@
+@import 'bootstrap';
+
+.body {
+    background-image: url('../../public/img/test4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn.btn-color-green:hover{
+    background-color: #a0f6c2;
+}
+.btn.btn-color-red:hover{
+    background-color: #ec7676;
+}
+.btn.btn-color-green:active{
+    background-color: #a0f6c2 !important;
+}
+.btn.btn-color-red:active{
+    background-color: #a0f6c2 !important;
+}
+
+.btn-color-green{
+    background-color: #a0f6c2;
+    border-color: transparent !important;
+}
+
+.btn-color-red{
+    background-color: #ec7676;
+}
